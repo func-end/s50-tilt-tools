@@ -1,0 +1,19 @@
+# data: never commit observing files (FITS headers carry the site's position)
+*.fit
+*.fits
+*.fts
+*.csv
+*.json
+data/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Apple / Xcode / Swift
+.DS_Store
+DerivedData/
+xcuserdata/
+.build/
+.swiftpm/
+*.xcuserstate
